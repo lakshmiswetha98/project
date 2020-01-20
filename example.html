@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Examples - by Swetha</title>
+</head>
+<body>
+<form action="">
+ <input type="text" id="number1" placeholder="Number1"><br><br>
+  <input type="text" id="number2" placeholder="Number2"><br><br>
+</form>
+<button onclick="function1();">Concatenate These 2 values</button><br><br>
+<button onclick="function2();">Add These 2 numbers</button>
+<script>
+function function1()  
+{
+    var number1=document.getElementById("number1").value;
+     var number2=document.getElementById("number2").value;
+     alert(number1+number2);
+}
+function function2()
+{
+     var number1=Number(document.getElementById("number1").value);
+     var number2=Number(document.getElementById("number2").value);
+      alert(number1+number2);
+}
+</script>
+</body>
+</html>
